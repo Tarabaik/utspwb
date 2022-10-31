@@ -1,0 +1,177 @@
+/* for root elemet */
+* {
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+body {
+    background-color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+}
+
+/* for header */
+
+nav {
+    margin-top: 1em;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li{
+    margin-right: 20px;  
+    list-style: none;  
+}
+nav ul,#nav_co {
+    display: flex; 
+    flex-direction: row;
+}
+
+#nav_co {
+    right: 0%;
+    position: absolute;
+    top: 1.5em;
+}
+/* for footer */
+footer {
+    background-color: white;
+    color: black;
+    padding: 5em 0 5em 0;
+}
+footer ol {
+    right: 10vh;
+    position: absolute;
+    font-size: x-large;
+}
+#fo_name{
+    position:relative;
+    top: 0.4em;
+    left: 0.5em;
+    font-size: 3em;
+}
+#fo_wrap{
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    display: flex;
+}
+@media only screen and (max-width: 600px){
+    #nav_co {
+        right: 0em;
+        position: absolute;
+        top: 0.4em;
+    }
+    #container1{
+        position: relative;
+        min-height: 100vh;
+    }
+    footer {
+        padding: 5em 0 5em 0;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+    }
+    #g_ai{
+        height: 500px;
+        width: auto;
+    }
+    #fo_co{
+        right: 2em;
+    }
+    #fo_name{
+        left: 1em;
+    }
+}
+/* main element */
+/* side A */
+aside#A_side{
+    background-color: black;
+}
+#quote_wp {
+    position: absolute;
+    width: 25em;
+    top: 20em;
+    right: 1em;
+}
+
+#quote_wp blockquote {
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    padding: 1.2em;
+    border-radius: 10px;
+}
+/* side B */
+#B_side{
+    background-color: white;
+    color: black;
+    top: 0%;
+    height: 300px;
+}
+#B_side img {
+    max-width: 250px;
+    position: relative;
+    float: right;
+    top: -5em;
+    right: 5em;
+}
+#B_cont {
+    position: relative;
+    top: 5.8em;
+    left: 2em;
+    width: 500px;
+}
+@media only screen and (max-width: 600px) {
+    #B_side img{
+        right: 1em;
+    }
+    #B_cont {
+        width: 300px;
+    }
+}
+/* side C */
+#C_side{
+    background-color: black;
+    color: white;
+    top: 0%;
+    height: 300px;
+    position:  relative;
+    left: 4.5em;
+    width:fit-content;
+}
+#C_side img {
+    max-width: 250px;
+    position: relative;
+    float: left;
+    top: 1.5em;
+    left: 5em;
+    border-radius: 30em;
+}
+#C_cont {
+    position: absolute;
+    top: 4em;
+    float: right;
+    right: -25em;
+    width: fit-content;
+}
+@media only screen and (max-width: 600px) {
+    #C_side{
+        left: -3.6em;
+    }
+    #C_cont {
+        right: -23em;
+    }
+}
+
+#proses {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    width: fit-content;
+    border-radius: 10px;
+}

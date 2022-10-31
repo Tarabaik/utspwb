@@ -62,8 +62,15 @@ if( isset($_POST["submit"])) {
                 <label for="pesan"><h2>Pesan</h2></label>
                 <textarea  type="p" cols="55" rows="5" name="pesan" id="pesan">
                 </textarea>
+                </li>
+                <li>
                 <label for="submit"></label>
-                <button id="button-sb " name="submit"><h3>Submit !</h3></button>
+                <button id="button-sb " name="submit">Submit !</button>
+                </li>
+                <br>
+                <li>
+                <label for="show"></label>
+                <a id="pesan" href="./datapesan.html">Lihat Pesan</a>
                 </li>
             </ol>
         </article>

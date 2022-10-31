@@ -209,11 +209,30 @@ main{
     border-radius: 8px;
     width: 250px;
 }
-
+button {
+    margin-top: 1em;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #06283D;
+    color: white;
+    font-size: x-large;
+}
+button:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
 #input {
     margin-top: 1em;
 }
-
+#pesan {
+    margin-top: 2em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #06283D;
+    color: white;
+    font-size: x-large;
+}
 /* about me */
 #main_abo article h1 {
     background-color: #06283D;

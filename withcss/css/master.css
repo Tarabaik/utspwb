@@ -234,6 +234,14 @@ button:hover {
     color: white;
     font-size: x-large;
 }
+/* data show */
+#data_table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+}
+
 /* about me */
 #main_abo article h1 {
     background-color: #06283D;

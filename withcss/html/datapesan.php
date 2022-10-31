@@ -23,7 +23,7 @@
         <hr>
     </header>
     <br><br><br><br><br><br><br><br><br><br>
-    <table border="1" cellpadding="10" cellspacing="0">
+    <table id="data_table" border="1" cellpadding="10" cellspacing="0">
         <tr>
             <th>No</th>
             <th>id</th>

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -24,7 +23,34 @@
         <hr>
     </header>
     <br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>No</th>
+            <th>id</th>
+            <th>Email Pengirim</th>
+            <th>Pesan Pengirim</th>
+        </tr>
+    <?php
+    require 'koneksi.php';
+    $no=1;
+    $result = mysqli_query($conn,"select * from contac_data");
+    if (!$result){
+        echo mysqli_error($conn);
+    }
+    while($tampil = mysqli_fetch_array($result)){
+        echo "
+        <tr>
+            <td>$no</td>
+            <td>$tampil[id]</td>
+            <td>$tampil[user_email]</td>
+            <td>$tampil[user_message]</td>
+       </tr>
+        ";
+        $no++;
+    }
+    ?>
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
     <!-- footer -->
     <span id="for_footer">
         <footer>

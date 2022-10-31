@@ -70,7 +70,7 @@ if( isset($_POST["submit"])) {
                 <br>
                 <li>
                 <label for="show"></label>
-                <a id="pesan" href="./datapesan.html">Lihat Pesan</a>
+                <a id="pesan" href="./datapesan.php">Lihat Pesan</a>
                 </li>
             </ol>
         </article>
